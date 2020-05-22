@@ -1,0 +1,2512 @@
+/*
+* ---------------------------------------------------------------------------
+* 01. Global Area
+* ---------------------------------------------------------------------------
+*/
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #000;
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+}
+html,
+body {
+    height: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    line-height: 1.3;
+    letter-spacing: 0;
+    font-family: 'Lato', sans-serif;
+}
+p {
+    margin-bottom: 15px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5s;
+}
+a:hover {
+    text-decoration: none;
+}
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.media-left img {
+    max-width: inherit;
+}
+::-webkit-input-placeholder {
+    color: inherit;
+}
+button {
+    outline: none;
+    border: none;
+}
+button:focus,
+input:focus {
+    outline: none;
+}
+
+/* Section Style */
+
+.sec {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blue-sec {
+    background-color: #253e86;
+}
+.red-sec {
+    background-color: #ff0000;
+}
+.tem-btn{
+    
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 02. Site Header / .site-header
+* ---------------------------------------------------------------------------
+*/
+
+.site-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.hdr-con {
+    height: 522px;
+    position: relative;
+}
+.hdr-con-txt {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+.hdr-con h1 {
+    font-size: 51px;
+    color: #253e86;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 23px;
+}
+.bnr-mark {
+    position: relative;
+}
+.bnr-mark:after {
+    content: '';
+    position: absolute;
+    height: 140%;
+    background-image: url(img/mark/bnr-mark.html);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left center;
+    width: 100%;
+    top: -18%;
+    left: -10%;
+}
+.bnr-mark-con {
+    position: relative;
+    z-index: 1;
+}
+.hdr-con p {
+    font-size: 30px;
+    color: #253e86;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.hdr-con h1 span,
+.hdr-con p span {
+    display: block;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 03. Sec One / .sec-one
+* ---------------------------------------------------------------------------
+*/
+
+.sec-one  {
+    padding: 75px 0 60px;
+    background-position: center center;
+}
+.sec-one-hdr {
+    background-color: #253e86;
+    padding: 35px 60px;
+    margin-bottom: 65px;
+    position: relative;
+}
+.sec-one-hdr .left-arrow {
+    position: absolute;
+    left: -35%;
+    top: 70px;
+}
+.sec-one-hdr  h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 900;
+}
+.sec-one-hdr  h1 span {
+    color: #ffef00;
+}
+.sec-one-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-one-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 04. Blue Sec One / .blue-sec-one
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-one {
+    padding: 32px 0;
+}
+.blue-sec-one h2 {
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 700;
+}
+.blue-sec-one h2 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 05. Sec two / .sec-two
+* ---------------------------------------------------------------------------
+*/
+
+.sec-two {
+    padding: 60px 0 210px;
+    padding-left: 500px
+    background-position: center top;
+    position: relative;
+}
+.sec-two-con-hdr {
+    margin-bottom: 25px;
+}
+.sec-two-con-hdr h2 {
+    font-weight: 700;
+}
+.sec-two-con-hdr2 {
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.sec-two-con-hdr2 h2 {
+  padding-top: 10px;
+  padding-bottom: 18px;
+  background-image: url(img/mark/mark1.html);
+  background-size: 62%;
+  background-position-x: -10px;
+  background-repeat: no-repeat;
+}
+.sec-two-con-img {
+
+}
+.sec-two-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-two-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 17px;
+}
+.sec-two-mark {
+    position: absolute;
+    left: 30%;
+    bottom: 70px;
+}
+.sec-two-mark-con {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+    font-style: italic;
+    color: #253e86;
+    font-size: 30px;
+    padding: 20px 77px;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 06. Blue Sec Two / .blue-sec-two
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-two {
+    padding: 32px 0;
+}
+.blue-sec-two h2 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 700;
+}
+.blue-sec-two h2 span {
+    color: #ffef00;
+    display: block;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 07. Sec Three / .sec-three
+* ---------------------------------------------------------------------------
+*/
+
+.sec-three {
+    padding: 50px 0;
+    background-position: center top;
+}
+.sec-three-con {
+    background-color: #ecf9ff;
+    box-shadow: 5px 8.66px 16px 4px rgba(0, 0, 0, 0.059);
+    padding: 35px 30px 63px;
+}
+.sec-three-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-three-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 12px;
+}
+.sec-three-mark {
+    position: relative;
+}
+.sec-three-mark:before {
+    content: '';
+    position: absolute;
+    left: -16%;
+    top: 0;
+    height: 100%;
+    width: 132%;
+    background-image: url(img/mark/mark2.html);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.sec-three-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 08. Sec Four / .sec-four
+* ---------------------------------------------------------------------------
+*/
+
+.sec-four {
+    padding: 40px 0 40px;
+    background-position: center top;
+}
+.sec-four-con-hdr {
+    margin: 0 0 31px;
+}
+.sec-four-con-hdr h2 {
+    font-weight: 700;
+}
+.sec-four-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-four-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 12px;
+}
+.sec-four-mark-three,
+.sec-four-mark-two,
+.sec-four-mark-one {
+    position: relative;
+}
+.sec-four-mark-three {
+    margin-top: 13px;
+}
+.sec-four-mark-two {
+    margin-top: 25px;
+}
+.sec-four-mark-one {
+    margin-bottom: 17px;
+}
+.sec-four-mark-three:before,
+.sec-four-mark-two:before,
+.sec-four-mark-one:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.sec-four-mark-three:before {
+    background-image: url(img/mark/mark5.html);
+    background-position: left center;
+    width: 88%;
+    right: -9%;
+}
+.sec-four-mark-two:before {
+    background-image: url(img/mark/mark4.html);
+    background-position: center center;
+    width: 114%;
+    left: -7%;
+}
+.sec-four-mark-one:before {
+    background-image: url(img/mark/mark3.html);
+    background-position: center center;
+    width: 132%;
+    left: -16%;
+}
+.sec-three-mark-three-con,
+.sec-three-mark-two-con,
+.sec-three-mark-one-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 29px;
+    
+}
+.sec-three-mark-three-con {
+    padding: 20px 0;
+    text-align: right;
+}
+.sec-three-mark-two-con {
+    padding: 20px 0;
+    text-align: center;
+}
+.sec-three-mark-one-con {
+    padding: 30px 0 40px;
+    text-align: center;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 09. Blue Sec Three / .blue-sec-three
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-three {
+    padding: 63px 0;
+}
+.blue-sec-three h2 {
+    font-size: 45px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 700;
+}
+.blue-sec-three h2 span {
+    color: #ffef00;
+}
+.blue-sec-three-con {
+    position: relative;
+}
+.blue-sec-three-con .right-arrow {
+    position: absolute;
+    right: -25%;
+    top: 26px;
+    z-index: 1;
+}
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 10. Sec Five / .sec-five
+* ---------------------------------------------------------------------------
+*/
+
+.sec-five {
+    background-position: center center;
+}
+.sec-five-con {
+    background-position: center center;
+}
+.sec-five-con ul {
+    margin: 0;
+    padding: 0;
+    padding-top: 45px;
+}
+.sec-five-con ul li {
+    list-style-type: none;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 0 50px;
+}
+.sec-five-mark {
+    position: relative;
+    margin: 40px 0 60px;
+}
+.sec-five-mark:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/mark/mark6.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.sec-five-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+    color: #253e86;
+    font-size: 35px;
+    display: inline-block;
+    padding: 20px 90px;
+    font-style: italic;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 11. Blue Sec Four / .blue-sec-four
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-four {
+    padding: 32px 0;
+    margin-bottom: 5px;
+}
+.blue-sec-four h2 {
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 700;
+}
+.blue-sec-four h2 span {
+    color: #ffef00;
+}
+.blue-four-one-con {
+    padding: 0 20px;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 12. Sec Six / .sec-six
+* ---------------------------------------------------------------------------
+*/
+
+.sec-six {
+    background-position: center center;
+}
+.sec-six-con {
+    background-color: #fff;
+    padding: 50px 30px;
+    box-shadow: 2.5px 4.33px 10.53px 2.47px rgba(0, 0, 0, 0.039);
+}
+.sec-six-con-top h1 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1;
+}
+.sec-six-con-btm ul,
+.sec-six-con-top ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-six-con-btm ul li,
+.sec-six-con-top ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.sec-six-con-top-thumb img {
+    border: 10px solid #fff;
+    box-shadow: 2.5px 4.33px 16px 4px rgba(0, 0, 0, 0.059);
+    margin-top: -45px;
+}
+.sec-six-con-btm {
+    padding-top: 10px;
+}
+.sec-six-mark {
+    position: relative;
+    margin: 5px 0 0;
+}
+.sec-six-mark:after {
+    content: '';
+    position: absolute;
+    left: -7%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/mark/mark7.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.sec-six-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    display: inline-block;
+    padding: 30px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 13. Blue Sec Five / .blue-sec-five
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-five {
+    padding: 63px 0;
+}
+.blue-sec-five h2 {
+    font-size: 45px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 700;
+}
+.blue-sec-five h2 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 14. Sec Seven / .sec-seven
+* ---------------------------------------------------------------------------
+*/
+
+.sec-seven {
+    background-position: center center;
+}
+.sec-seven-con {
+    background-color: #fff;
+    padding: 60px 30px;
+    box-shadow: 2.5px 4.33px 16px 4px rgba(0, 0, 0, 0.059);
+}
+.sec-seven-con h2,
+.sec-seven-con h3 {
+    font-weight: 700;
+    font-size: 30px;
+}
+.sec-seven-con p {
+    font-size: 30px;
+    margin: 15px 0 17px;
+}
+.sec-seven-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-seven-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.sec-seven-mark {
+    position: relative;
+    margin: 5px 0 0;
+}
+.sec-seven-mark:after {
+    content: '';
+    position: absolute;
+    left: -13%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/mark/mark8.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.sec-seven-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    display: inline-block;
+    padding: 20px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 15. Sec Eight / .sec-eight
+* ---------------------------------------------------------------------------
+*/
+
+.sec-eight {
+    background-position: center center;
+}
+.sec-eight-con {
+    padding: 60px 50px;
+    background-position: center center;
+}
+.sec-eight-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-eight-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.sec-eight-mark-one {
+    position: relative;
+    margin-bottom: 20px;
+}
+.sec-eight-mark-one:after {
+    content: '';
+    position: absolute;
+    left: 0%;
+    top: 18px;
+    width: 110%;
+    height: 110%;
+    background-image: url(img/mark/mark8.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+}
+.sec-eight-mark-one-con-pre {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    display: inline-block;
+    padding: 0px 30px;
+}
+.sec-eight-mark-one-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    display: inline-block;
+    padding: 10px 30px;
+}
+.sec-eight-mark-two {
+    position: relative;
+    margin-top: 0 !important;
+    margin-bottom: -15px;
+}
+.sec-eight-mark-two:after {
+    content: '';
+    position: absolute;
+    left: -8%;
+    top: 0;
+    width: 116%;
+    height: 100%;
+    background-image: url(img/mark/mark7.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-eight-mark-two-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    display: inline-block;
+    padding: 32px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 16. Blue Sec Six / .blue-sec-six
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-six {
+    padding: 32px 0;
+}
+.blue-sec-six h2 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 700;
+}
+.blue-sec-six h2 span {
+    color: #ffef00;
+    display: block;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 17. Sec Nine / .sec-nine
+* ---------------------------------------------------------------------------
+*/
+
+.sec-nine {
+    padding-bottom: 50px;
+}
+.sec-nine-con {
+    margin-top: 50px;
+    background-color: #fff;
+    padding: 30px  45px;
+    border-radius: 15px;
+}
+.sec-nine-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-nine-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.sec-nine-con-two {
+    background-color: #253e86;
+}
+.sec-nine-con-two h2 {
+    color: #ffef00;
+}
+.sec-nine-con-two p {
+    color: #fff;
+    font-size: 25px;
+    margin: 15px 0;
+}
+.sec-nine-con-two ul {
+    margin-bottom: 15px;
+}
+.sec-nine-con-two ul li {
+    color: #fff;
+}
+.sec-nine-mark-one {
+    position: relative;
+}
+.sec-nine-mark-one:after {
+    content: '';
+    position: absolute;
+    left: -12%;
+    top: 0;
+    width: 116%;
+    height: 100%;
+    background-image: url(img/mark/mark4.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-nine-mark-one-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    display: inline-block;
+    padding: 32px 0;
+}
+.sec-nine-mark-two {
+    position: relative;
+}
+.sec-nine-mark-two:after {
+    content: '';
+    position: absolute;
+    left: -8%;
+    top: 0;
+    width: 117%;
+    height: 100%;
+    background-image: url(img/mark/mark7.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-nine-mark-two-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    display: inline-block;
+    padding: 32px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 18. Blue Sec Seven / .blue-sec-seven
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-seven {
+    padding: 32px 0;
+}
+.blue-sec-seven h2 {
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 700;
+}
+.blue-sec-seven h2 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 19. Sec Ten / .sec-ten
+* ---------------------------------------------------------------------------
+*/
+
+.sec-ten {
+    background-position: center center;
+    padding: 70px 0;
+}
+.sec-ten-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-ten-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 10px;
+}
+.sec-ten-con ul li:first-child {
+    margin-top: 0;
+}
+.sec-ten-con ul li.con-mark {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 20. Sec Eleven / .sec-eleven
+* ---------------------------------------------------------------------------
+*/
+
+.sec-eleven {
+    background-position: center center;
+}
+.sec-eleven-con {
+    background-position: center center;
+    padding: 55px 40px;
+}
+.sec-eleven-txt {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 14px;
+}
+.sec-eleven-txt ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-eleven-txt ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+.sec-eleven-mark {
+    position: relative;
+}
+.sec-eleven-mark:after {
+    content: '';
+    position: absolute;
+    left: -13%;
+    top: 0;
+    width: 126%;
+    height: 100%;
+    background-image: url(img/mark/mark4.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-eleven-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    text-align: center;
+    padding: 32px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 21. Blue Sec Eight / .blue-sec-eight
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-eight {
+    padding: 32px 0;
+}
+.blue-sec-eight h2 {
+    font-size: 50px;
+    color: #fff;
+    line-height: 1.4;
+    font-weight: 700;
+}
+.blue-sec-eight h2 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 22. Sec twelve / .sec-twelve
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twelve {
+    background-position: center center;
+    padding: 60px 0 45px;
+}
+.sec-twelve ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-twelve ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.sec-twelve p {
+    font-size: 25px;
+    font-weight: 700;
+}
+.sec-twelve-mark {
+    position: relative;
+    margin: 10px 0;
+}
+.sec-twelve-mark:after {
+    content: '';
+    position: absolute;
+    left: -2%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/mark/mark9.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-twelve-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    display: inline-block;
+    padding: 31px 45px;
+    text-transform: uppercase;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 23. Sec Thirteen / .sec-thirteen
+* ---------------------------------------------------------------------------
+*/
+
+.sec-thirteen {
+    background-position: center center;
+}
+.sec-thirteen-con {
+    padding: 25px 65px;
+    background-color: #253e86;
+    position: relative;
+}
+.sec-thirteen-thumb {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 10px;
+}
+.sec-thirteen-txt {
+    font-size: 30px;
+    color: #ffef00;
+}
+.sec-thirteen-txt span {
+    color: #fff;
+}
+.sec-thirteen-con .right-arrow {
+    position: absolute;
+    top: 110px;
+    right: -19%;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 24. Sec Fourteen / .sec-fourteen
+* ---------------------------------------------------------------------------
+*/
+
+.sec-fourteen {
+    background-position: center center;
+}
+.sec-fourteen-con {
+    padding: 55px 65px;
+    background-color: #fff;
+}
+.sec-fourteen-thumb {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 2.5px 4.33px 16px 4px rgba(0, 0, 0, 0.059);
+}
+.sec-fourteen-txt ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-fourteen-txt ul li {
+    font-size: 25px;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.sec-fourteen-txt ul li:last-child {
+    margin-bottom: 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 25. Blue Sec Nine / .blue-sec-nine
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-nine {
+    padding: 35px 0;
+}
+.blue-sec-nine-hdr {
+    display: inline-block;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    padding: 22px 45px;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.blue-sec-nine-hdr:after {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 200%;
+    left: -16px;
+    top: -50%;
+    background-color: #253e86;
+    transform: rotate(20deg);
+}
+.blue-sec-nine-hdr:before {
+    content: '';
+    position: absolute;
+    width: 30px;
+    height: 200%;
+    right: -16px;
+    top: -50%;
+    background-color: #253e86;
+    transform: rotate(20deg);
+}
+.blue-sec-nine-hdr h2 {
+    color: #253e86;
+    font-size: 30px;
+    font-weight: 700;
+}
+.blue-sec-nine-con ul {
+    margin: 0;
+    padding: 0;
+    margin-left: 30px;
+}
+.blue-sec-nine-con ul li {
+    list-style-type: none;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 26. Sec Fifthteen / .sec-fifthteen
+* ---------------------------------------------------------------------------
+*/
+
+.sec-fifthteen {
+    background-position: center center;
+}
+.sec-fifthteen-con {
+    background-position: center center;
+    padding: 70px 30px;
+}
+.sec-fifthteen-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-fifthteen-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.sec-fifthteen-mark-one {
+    position: relative;
+    margin-bottom: 48px;
+}
+.sec-fifthteen-mark-one:after {
+    content: '';
+    position: absolute;
+    left: -2%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/mark/mark10.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-fifthteen-mark-one-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    display: inline-block;
+    padding: 30px 60px;
+    text-transform: uppercase;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 27. Blue Sec Ten / .blue-sec-ten
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-ten-con {
+    padding: 5px 45px 45px;
+}
+.blue-sec-ten-con ul {
+    margin: 0;
+    padding: 0;
+}
+.blue-sec-ten-con ul li {
+    list-style-type: none;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 15px;
+}
+.blue-sec-ten-con ul li span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 28. Sec Sixteen / .sec-sixteen
+* ---------------------------------------------------------------------------
+*/
+
+.sec-sixteen {
+    background-position: center center;
+}
+.sec-sixteen-con {
+    background-color: #fff;
+}
+.sec-sixteen-con-two,
+.sec-sixteen-con-one {
+    padding: 45px 40px;
+}
+.sec-sixteen-con-two ul,
+.sec-sixteen-con-one ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-sixteen-con-two ul li,
+.sec-sixteen-con-one ul li {
+    list-style-type: none;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sec-sixteen-con-two-thumb {
+    border: 10px solid #fff;
+    box-shadow: 1.5px 2.598px 23.49px 3.51px rgba(0, 0, 0, 0.039);
+}
+.sec-sixteen-con-one-thumb img {
+    border: 10px solid #fff;
+    box-shadow: 1.5px 2.598px 23.49px 3.51px rgba(0, 0, 0, 0.039);
+}
+.sec-sixteen-con-two-list {
+    margin-top: 20px !important;
+}
+.sec-sixteen-con-blue {
+    background-color: #253e86;
+    padding: 30px 60px;
+}
+.sec-sixteen-con-blue h2 {
+    color: #fff;
+    font-weight: 700;
+}
+.sec-sixteen-con-blue h2 span {
+    color: #ffef00;
+}
+.sec-sixteen-con-three {
+    padding: 35px 60px 0px;
+    position: relative;
+    overflow: hidden;
+}
+.sec-sixteen-con-three p {
+    font-size: 25px;
+}
+.sec-sixteen-mark {
+    position: relative;
+}
+.sec-sixteen-mark:after {
+    content: '';
+    position: absolute;
+    left: -5%;
+    top: 0;
+    width: 114%;
+    height: 100%;
+    background-image: url(img/mark/mark11.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-sixteen-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 25px;
+    display: inline-block;
+    padding: 30px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 29. Sec Seventeen / .sec-seventeen
+* ---------------------------------------------------------------------------
+*/
+
+.sec-seventeen {
+    background-position: center center;
+}
+.sec-seventeen-heading {
+    background-color: #253e86;
+    padding: 45px 0;
+}
+.sec-seventeen-heading h1 {
+    color: #fff;
+    font-size: 56px;
+    font-weight: 700;
+    text-align: center;
+}
+.sec-seventeen-heading h1 span {
+    color: #ffef00;
+}
+.sec-seventeen-con-txt {
+    background-color: #fff;
+    padding: 55px 30px 35px;
+}
+.sec-seventeen-con-thumb img {
+    border: 10px solid #fff;
+    box-shadow: 2.5px 4.33px 16px 4px rgba(0, 0, 0, 0.059);
+}
+.sec-seventeen-con-txt {
+    font-size: 30px;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 30. Blue Sec Eleven / .blue-sec-eleven
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-eleven-con {
+    padding: 35px 65px;
+}
+.blue-sec-eleven-con p {
+    font-size: 25px;
+    color: #fff;
+}
+.blue-sec-eleven-con p span {
+    color: #ffef00;
+}
+.blue-sec-eleven-mark {
+    position: relative;
+    margin-top: 40px;
+}
+.blue-sec-eleven-mark:after {
+    content: '';
+    position: absolute;
+    left: -5%;
+    top: 0;
+    width: 114%;
+    height: 100%;
+    background-image: url(img/mark/mark12.html);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.blue-sec-eleven-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 900;
+    color: #253e86;
+    font-size: 48px;
+    padding: 30px 0;
+    text-align: center;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 31. Sec Eighteen / .sec-eighteen
+* ---------------------------------------------------------------------------
+*/
+
+.sec-eighteen {
+    background-position: center center;
+}
+.sec-eighteen-con {
+    background-color: #ecf9ff;
+}
+.sec-eighteen-con-one {
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    background-size: contain;
+    margin: 75px 20px 40px 0;
+    padding-bottom: 80px;
+}
+.sec-eighteen-con-one h2 {
+    color: #253e86;
+    font-weight: 700;
+}
+.sec-eighteen-con-one p {
+    font-size: 25px;
+    margin-bottom: 0;
+    margin-top: 35px;
+}
+.sec-eighteen-con-two {
+    background-position: right bottom;
+    padding: 16px 45px 35px;
+    background-color: #fff;
+}
+.sec-eighteen-con-two ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-eighteen-con-two ul li {
+    list-style-type: none;
+    font-size: 25px;
+    color: #253e86;
+    margin-top: 19px;
+}
+.order-btn {
+    display: inline-block;
+    background-color: #38a03b;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border-bottom: 5px solid #2d802f;
+    margin-top: 30px;
+}
+.order-btn:hover {
+    color: #fff;
+}
+.sec-eighteen-con-three {
+    padding: 20px 29px 40px;
+}
+.sec-eighteen-con-three ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-eighteen-con-three ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.sec-eighteen-con-three p {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 15px;
+}
+.sec-eighteen-mark {
+    position: relative;
+    margin-top: 0 !important;
+    margin-bottom: -15px;
+}
+.sec-eighteen-mark:after {
+    content: '';
+    position: absolute;
+    left: -13%;
+    top: 0;
+    width: 112%;
+    height: 100%;
+    background-image: url(img/mark/mark13.html);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-eighteen-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 32. Blue Sec Twelve / .blue-sec-twelve
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-twelve {
+    padding: 32px 0;
+}
+.blue-sec-twelve h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-twelve-con.smaller h2 {
+    font-size: 39px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-twelve h2 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 33. Sec Nineteen / .sec-nineteen
+* ---------------------------------------------------------------------------
+*/
+
+.sec-nineteen {
+    background-position: center center;
+}
+.sec-nineteen-con {
+    background-color: #fff;
+    padding: 43px 45px 60px;
+    position: relative;
+}
+.sec-nineteen-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-nineteen-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 13px;
+}
+.sec-nineteen-thumb {
+    position: absolute;
+    right: -150px;
+    top: 0;
+}
+.sec-nineteen-mark {
+    position: relative;
+    margin-top: 0 !important;
+    margin-bottom: -15px;
+}
+.sec-nineteen-mark:after {
+    content: '';
+    position: absolute;
+    left: -10%;
+    top: 0;
+    width: 90%;
+    height: 100%;
+    background-image: url(img/mark/mark7.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-nineteen-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 34. Blue Sec Thirteen / .blue-sec-thirteen
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-thirteen {
+    padding: 32px 0;
+}
+.blue-sec-thirteen h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-thirteen h2 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 35. Sec Twenty / .sec-twenty
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twenty {
+    background-position: center center;
+}
+.sec-twenty-con {
+    background-color: #fff;
+    padding: 55px 40px;
+}
+.sec-twenty-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-twenty-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.sec-twenty-mark {
+    position: relative;
+}
+.sec-twenty-mark:after {
+    content: '';
+    position: absolute;
+    left: -8%;
+    top: 0;
+    width: 116%;
+    height: 100%;
+    background-image: url(img/mark/mark15.html);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-twenty-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 36. Blue Sec Fourteen / .blue-sec-fourteen
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-fourteen-con {
+    padding: 32px 45px;
+}
+.blue-sec-fourteen h2 {
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-fourteen h2 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 37. Sec Twentyone / .sec-twentyone
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twentyone {
+    background-position: center center;
+}
+.sec-twentyone-con {
+    background-color: #ecf9ff;
+    padding: 30px 40px 55px;
+}
+.sec-twentyone-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-twentyone-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.sec-twentyone-con h2 {
+    font-weight: 700;
+    margin-top: 50px;
+}
+.sec-twentyone-con p {
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 25px;
+}
+.sec-twentyone-mark-two,
+.sec-twentyone-mark-one {
+    position: relative;
+}
+.sec-twentyone-mark-one:after {
+    content: '';
+    position: absolute;
+    left: -6%;
+    top: 0;
+    width: 94%;
+    height: 100%;
+    background-image: url(img/mark/mark16.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-twentyone-mark-two:after {
+    content: '';
+    position: absolute;
+    left: -10%;
+    top: 0;
+    width: 120%;
+    height: 100%;
+    background-image: url(img/mark/mark17.html);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-twentyone-mark-two-con,
+.sec-twentyone-mark-one-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 25px;
+    padding: 30px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 38. Blue Sec Fifthteen / .blue-sec-fifthteen
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-fifthteen-con {
+    padding: 32px 45px;
+}
+.blue-sec-fifthteen h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-fifthteen h2 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 39. Sec Twentytwo / .sec-twentytwo
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twentytwo {
+    background-position: center center;
+}
+.sec-twentytwo-con-one {
+    background-position: center center;
+    padding: 65px 0 85px 32px;
+}
+.sec-twentytwo-con-one-txt {
+    background-color: #fff;
+    padding: 40px 30px;
+    border-radius: 15px;
+}
+.sec-twentytwo-con-one-txt ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-twentytwo-con-one-txt ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.sec-twentytwo-testi {
+    background-color: #d9f3ff;
+}
+.sec-twentytwo-testi-two,
+.sec-twentytwo-testi-four,
+.sec-twentytwo-testi-six {
+    background-color: #fff;
+}
+.sec-twentytwo-testi-con {
+    font-weight: 700;
+    font-size: 30px;
+    padding: 40px 0;
+    padding-right: 60px;
+    padding-left: 30px;
+}
+.sec-twentytwo-testi-two .sec-twentytwo-testi-con,
+.sec-twentytwo-testi-four .sec-twentytwo-testi-con,
+.sec-twentytwo-testi-six .sec-twentytwo-testi-con {
+    padding-right: 30px;
+    padding-left: 60px;
+}
+.sec-twentytwo-testi-one .sec-twentytwo-testi-con {
+    padding: 63px 0;
+}
+.sec-twentytwo-testi-con span {
+    color: #253e86;
+}
+.sec-twentytwo-blue {
+    background-color: #253e86;
+    padding: 32px 0;
+    text-align: center;
+}
+.sec-twentytwo-blue h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.sec-twentytwo-blue h1 span {
+    color: #ffef00;
+}
+.sec-twentytwo-mark {
+    position: relative;
+}
+.sec-twentytwo-mark:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/mark/mark18.html);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-twentytwo-mark-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 45px;
+    padding: 17px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 40. Blue Sec sixteen / .blue-sec-sixteen
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-sixteen-con {
+    padding: 32px 45px;
+    text-align: center;
+}
+.blue-sec-sixteen h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-sixteen h1 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 41. Sec twentythree / .sec-twentythree
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twentythree {
+    background-position: center center;
+}
+.sec-twentythree-con-one {
+    background-position: right bottom;
+    padding: 30px 40px 50px;
+}
+.sec-twentythree-con-two ul,
+.sec-twentythree-con-one ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-twentythree-con-two ul li,
+.sec-twentythree-con-one ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 14px;
+}
+.sec-twentythree-testi {
+    background-color: #253e86;
+}
+.sec-twentythree-testi-con {
+    padding: 9px 30px 9px 0;
+}
+.sec-twentythree-testi-con p {
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    line-height: 1.3;
+    margin-bottom: 9px;
+}
+.sec-twentythree-testi-con p span {
+    color: #ffef00;
+}
+.sec-twentythree-con-two {
+    background-color: #fff;
+    padding: 30px 40px 50px;
+}
+.sec-twentythree-con-two ul li:last-child {
+    font-weight: 700;
+}
+.sec-twentythree-mark-two,
+.sec-twentythree-mark-one {
+    position: relative;
+    margin-top: 0 !important;
+}
+.sec-twentythree-mark-two:after,
+.sec-twentythree-mark-one:after {
+    content: '';
+    position: absolute;
+    left: -10%;
+    top: 0;
+    width: 104%;
+    height: 100%;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-twentythree-mark-one:after {
+    background-image: url(img/mark/mark19.html);
+}
+.sec-twentythree-mark-two:after {
+    background-image: url(img/mark/mark20.html);
+}
+.sec-twentythree-mark-two-con,
+.sec-twentythree-mark-one-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 25px;
+    padding: 15px 0;
+}
+.sec-twentythree-mark-two-con {
+    padding: 10px 0 20px;
+}
+.sec-twentythree-mark-one-con {
+    padding: 15px 0;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 42. Blue Sec seventeen / .blue-sec-seventeen
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-seventeen-con {
+    padding: 32px 45px;
+    text-align: center;
+}
+.blue-sec-seventeen h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-seventeen h1 span {
+    color: #ffef00;
+    display: block;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 43. Sec twentyfour / .sec-twentyfour
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twentyfour {
+    background-position: center center;
+}
+.sec-twentyfour-con {
+    background-color: #fff;
+    padding-bottom: 40px;
+}
+.sec-twentyfour-con-two,
+.sec-twentyfour-con-one {
+    padding: 30px 40px 50px;
+}
+.sec-twentyfour-con-two ul,
+.sec-twentyfour-con-one ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-twentyfour-con-two ul li,
+.sec-twentyfour-con-one ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 14px;
+}
+.sec-twentyfour-blue {
+    background-color: #253e86;
+    padding: 42px 10px;
+    text-align: center;
+}
+.sec-twentyfour-blue h2 {
+    font-weight: 700;
+    color: #fff;
+}
+.sec-twentyfour-blue h2 span {
+    color: #ffef00;
+}
+.sec-twentyfour-mark-one {
+    position: relative;
+    margin-top: 14px;
+}
+.sec-twentyfour-mark-one:after {
+    content: '';
+    position: absolute;
+    left: -3%;
+    top: 0;
+    width: 72%;
+    height: 100%;
+    background-image: url(img/mark/mark21.html);
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-twentyfour-mark-one-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #253e86;
+    font-size: 30px;
+    padding: 36px 0;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.sec-twentyfour-mark-one-con span {
+    color: #ff0000;
+    font-size: 37px;
+    margin-right: 20px;
+}
+.sec-twentyfour-mark-two {
+    position: relative;
+    margin-top: 90px;
+}
+.sec-twentyfour-mark-two:after {
+    content: '';
+    position: absolute;
+    left: -8%;
+    top: 0;
+    width: 116%;
+    height: 100%;
+    background-image: url(img/mark/mark22.html);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec-twentyfour-mark-two-con {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+    color: #ff0000;
+    font-size: 46px;
+    padding: 36px 0;
+}
+.sec-twentyfour-con-three {
+    margin-top: 20px;
+    padding: 50px 80px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sec-twentyfour-con-three .promo {
+    background-color: #253e88;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 15px;
+    padding: 10px 22px;
+}
+.sec-twentyfour-con-three .promo span {
+    color: #ffef00;
+}
+.sec-twentyfour-con-three .order-btn {
+    width: 100%;
+    text-align: center;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 44. Blue Sec eighteen / .blue-sec-eighteen
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-eighteen-con {
+    padding: 32px 45px;
+    text-align: center;
+    position: relative;
+}
+.blue-sec-eighteen h1 {
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-eighteen h1 span {
+    color: #ffef00;
+    display: block;
+}
+.blue-sec-eighteen-con .left-arrow {
+    position: absolute;
+    top: 85px;
+    left: -24%;
+    z-index: 1;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 45. Sec twentyfive / .sec-twentyfive
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twentyfive {
+    background-position: center center;
+}
+.sec-twentyive-con {
+    background-color: #fff;
+    padding-top: 37px;
+    padding-bottom: 60px;
+}
+.sec-twentyive-con ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.sec-twentyive-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.sec-twentyive-con ul li span {
+    color: #253e86;
+    font-weight: 700;
+}
+.sec-twentyive-red {
+    background-color: #ff0000;
+    text-align: center;
+    padding: 12px 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sec-twentyive-red h1 {
+    font-size: 35px;
+    color: #fff;
+}
+.sec-twentyive-red h1 span {
+    color: #ffef00;
+}
+.sec-twentyive-blue {
+    text-align: center;
+    padding: 25px 15px;
+    background-color: #253e88;
+    margin-top: 27px;
+    margin-bottom: 25px;
+}
+.sec-twentyive-blue h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 46. Red Sec One / .red-sec-one
+* ---------------------------------------------------------------------------
+*/
+
+.red-sec-one-con {
+    padding: 22px 45px;
+    text-align: center;
+}
+.red-sec-one h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.red-sec-one h1 span {
+    color: #ffef00;
+    display: block;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 47. Blue Sec nineteen / .blue-sec-nineteen
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-nineteen-con {
+    padding: 32px 45px;
+    text-align: center;
+}
+.blue-sec-nineteen h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-nineteen h1 span {
+    color: #ffef00;
+    display: block;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 48. Sec twentysix / .sec-twentysix
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twentysix {
+    background-position: center center;
+}
+.sec-twentysix-con {
+    background-color: #fff;
+    padding: 37px 55px 60px;
+}
+.sec-twentysix-con ul {
+    margin: 0;
+    padding: 0;
+}
+.sec-twentysix-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 49. Blue Sec twenty / .blue-sec-twenty
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-twenty-con {
+    padding: 32px 45px;
+    text-align: center;
+}
+.blue-sec-twenty h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-twenty h1 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 50. Sec twentyseven / .sec-twentyseven
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twentyseven {
+    background-position: center center;
+}
+.sec-twentyseven-con {
+    background-color: #ecf9ff;
+    padding: 80px 90px;
+}
+.sec-twentyseven-con-thumb img {
+    border: 5px solid #fff;
+    box-shadow: 2.5px 4.33px 10.53px 2.47px rgba(0, 0, 0, 0.059);
+}
+.sec-twentyseven-con-box {
+    background-color: #253e88;
+    color: #fff;
+    font-size: 30px;
+    border-radius: 15px;
+    padding: 50px 33px;
+}
+.sec-twentyseven-con-box span {
+    color: #ffef00;
+}
+.sec-twentyseven-con ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 90px;
+}
+.sec-twentyseven-con ul li {
+    list-style-type: none;
+    font-size: 23px;
+    margin-top: 20px;
+    color: #253e86;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 51. Blue Sec twentyone / .blue-sec-twentyone
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-twentyone-con {
+    padding: 32px 15px;
+    text-align: center;
+}
+.blue-sec-twentyone h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-twentyone h1 span {
+    color: #ffef00;
+    font-weight: 700;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 52. Sec twentyeight / .sec-twentyeight
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twentyeight {
+    background-position: center center;
+}
+.sec-twentyeight-con {
+    background-color: #fff;
+    padding: 30px 0 50px;
+}
+.sec-twentyeight-con ul {
+    margin: 0;
+    padding: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.sec-twentyeight-con ul li {
+    list-style-type: none;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.sec-twentyeight-blue {
+    padding: 22px 65px;
+    background-color: #253e86;
+    margin-top: 45px;
+    margin-bottom: 50px;
+}
+.sec-twentyeight-blue h1 {
+    font-size: 40px;
+    color: #fff;
+}
+.sec-twentyeight-blue h1 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 53. Blue Sec twentytwo / .blue-sec-twentytwo
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-twentytwo-con {
+    padding: 28px 15px;
+    text-align: center;
+}
+.blue-sec-twentytwo h2 {
+    font-weight: 700;
+    color: #fff;
+}
+.blue-sec-twentytwo h2 span {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 54. Sec twentynine / .sec-twentynine
+* ---------------------------------------------------------------------------
+*/
+
+.sec-twentynine {
+    background-position: center center;
+}
+.sec-twentynine-con {
+    background-color: #fff;
+    padding: 50px 40px 30px;
+}
+.sec-twentynine-con p {
+    font-size: 23px;
+}
+.sec-twentynine-blue {
+    padding: 32px 0;
+    background-color: #253e86;
+}
+.sec-twentynine-blue h3 {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sec-twentynine-blue h3 i {
+    color: #ffef00;
+}
+.pricing-table {
+    background-color: #fff;
+    padding: 70px 15px;
+}
+.single-pricing {
+    background: #d9f3ff;
+    border: 3px solid #253e86;
+    box-shadow: 2.5px 4.33px 16px 4px rgba(0, 0, 0, 0.059);
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-top: 40px;
+}
+.single-pricing.recommended {
+    margin-top: 0;
+}
+.single-pricing .best-selr {
+    background-color: #253e86;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 5px 0;
+}
+.single-pricing h2 {
+    font-size: 33px;
+    font-weight: 700;
+    color: #253e86;
+    margin: 18px 0 8px;
+}
+.single-pricing h4 {
+    color: #393939;
+    margin: 0 0 33px;
+    font-size: 24px;
+}
+.single-pricing.recommended h4 {
+    color: #253e86;
+}
+.single-pricing .price {
+    font-size: 43px;
+    font-weight: 900;
+    color: #253e86;
+}
+.single-pricing.recommended .price {
+    font-size: 57px;
+}
+.single-pricing .price span {
+    display: block;
+    color: #393939;
+    font-size: 19px;
+    font-weight: 400;
+}
+.add-btn a {
+    display: inline-block;
+    color: #fff;
+    background-color: #38a03b;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: 700;
+    border-bottom: 5px solid #2d802f;
+    margin-bottom: 13px;
+    margin-top: 12px;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 55. Blue Sec twentythree / .blue-sec-twentythree
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-twentythree-con {
+    position: relative;
+    padding: 20px 0;
+}
+.blue-sec-twentythree-con h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+    padding: 6px 0;
+}
+.blue-sec-twentythree-con h1 span {
+    color: #ffef00;
+}
+.blue-sec-twentythree-con .right-arrow {
+    position: absolute;
+    right: -18%;
+    top: 50px;
+    z-index: 1;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 56. Sec thirty / .sec-thirty
+* ---------------------------------------------------------------------------
+*/
+
+.sec-thirty {
+    background-position: center center;
+}
+.sec-thirty-con-one {
+    background-color: #ecf9ff;
+    padding: 55px 50px 45px;
+}
+.sec-thirty-con-one p {
+    font-size: 25px;
+}
+.sec-thirty-con-one p span {
+    color: #253e86;
+}
+.sec-thirty-blue {
+    background-color: #253e86;
+    padding: 25px 0;
+}
+.sec-thirty-blue h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffef00;
+}
+.sec-thirty-con-two {
+    background-color: #ecf9ff;
+    padding: 45px 50px 35px;
+}
+.sec-thirty-con-two h2 {
+    color: #253e86;
+    margin-bottom: 10px;
+}
+.sec-thirty-con-two p {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 57. Blue Sec twentytfour / .blue-sec-twentytfour
+* ---------------------------------------------------------------------------
+*/
+
+.blue-sec-twentyfour-con {
+    padding: 42px 0;
+}
+.blue-sec-twentyfour-con h3 {
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+}
+.blue-sec-twentyfour-con h3 i {
+    color: #ffef00;
+}
+
+/*
+* ---------------------------------------------------------------------------
+* 58. Sec thirtyone / .sec-thirtyone
+* ---------------------------------------------------------------------------
+*/
+
+.sec-thirtyone {
+    background-position: center center;
+    border-bottom: 40px solid #253e86;
+}
+.sec-thirtyone .pricing-table {
+    padding: 75px 15px 120px;
+}

@@ -1,0 +1,90 @@
+{
+  "MenuCartText": {
+    "Text": "Menu",
+    "Url": ""
+  },
+  "FooterRightsText": "",
+  "ContactMessageBoxPlaceHolder": "adfsadf",
+  "EditMode": "Somepass",
+  "AddToCart": {
+    "Text": "Add to Cart",
+    "Url": ""
+  },
+  "ProductName": "READER RESULTS",
+  "ProductPrice": "19.99",
+  "LoginTextButton": {
+    "Text": "Login",
+    "Url": ""
+  },
+  "FooterHeaderText": "Questions or comments? <strong>Get in touch:<\/strong>",
+  "SendMessageButton": {
+    "Text": "Send Message",
+    "Url": ""
+  },
+  "PrivacyButton": {
+    "Text": "Privacy",
+    "Url": ""
+  },
+  "TermsOfServiceButton": {
+    "Text": "Term Of Service",
+    "Url": ""
+  },
+  "Title": "ay",
+  "Structure": "NoSideBar",
+  "MainImage": "images\/cream1.jpg",
+  "SubHeaderText": "Behold! This is the <strong>left sidebar<\/strong> layout<br\/> with a sidebar on the left!",
+  "FooterText": "Erat lorem ipsum veroeros consequat magna tempus lorem ipsum consequat Phaselamet mollis tortor congue. Sed quis mauris sit amet magna accumsan tristique. Curabitur leo nibh, rutrum eu malesuada.",
+  "Images": [
+    {
+      "Url": "images\/pic01.jpg",
+      "Alt": "Some Image"
+    },
+    {
+      "Url": "images\/facewipe.gif",
+      "Alt": "Some Image 2"
+    },
+    {
+      "Url": "images\/cream3.jpg",
+      "Alt": "Some Image"
+    },
+    {
+      "Url": "images\/cream4.jpg",
+      "Alt": "Some Image"
+    },
+    {
+      "Url": "images\/cream6.jpg",
+      "Alt": "Some Image"
+    },
+    {
+      "Url": "images\/cream7.jpg",
+      "Alt": "Some Image"
+    },
+    {
+      "Url": "images\/cream8.jpg",
+      "Alt": "Some Image"
+    },
+    {
+      "Url": "images\/cream9.jpg",
+      "Alt": "Some Image"
+    }
+  ],
+  "ContentIndex1": [
+  ],
+  "ContentIndex2": [
+  ],
+  "ContentIndex3": [
+  ],
+  "ContentIndex4": [
+  ],
+  "MetaTags": [
+    {
+      "Name": "description",
+      "Content": "An Advanced Tone-Up Enhancer,&nbsp;Brightens Skin Tone Naturally And Instantly This&nbsp;Tone-Up&nbsp;Cream&nbsp;brightens&nbsp;your skin tone instantly while minimizing the appearance of fine lines and pores.&nbsp;An antioxidant-rich formula provides&nbsp;exceptional&nbsp;hydration, leaving skin smooth, and healthy all day long."
+    }
+  ],
+  "CssIn": "",
+  "JavascriptIn": "",
+  "CssList": "\n<meta http-equiv=\"Content-Type\" content=\"text\/html; charset=utf-8\">\n<meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n<meta name=\"referrer\" content=\"always\">\n<link rel=\"stylesheet\" id=\"google_font_Open_Sans-css\" href=\"images\/sss.css\" type=\"text\/css\" media=\"all\">\n<link href=\"images\/bootstrap.min.css\" rel=\"stylesheet\">\n<link href=\"images\/bootstrap-theme.min.css\" rel=\"stylesheet\">\n<link rel=\"stylesheet\" type=\"text\/css\" href=\"images\/font-awesome.min.css\">\n<link rel=\"stylesheet\" href=\"images\/style.css\" type=\"text\/css\">\n<link href=\"images\/glue.css\" rel=\"stylesheet\" type=\"text\/css\">\n<script src=\"images\/jquery-1.10.2.js\"><\/script>\n<title>Total Wrinkle Miracle<\/title>\n<link rel=\"icon\" href=\"images\/favicon.ico\">\n<link href=\"https:\/\/fonts.googleapis.com\/css?family=EB+Garamond:400,400i,500&amp;display=swap\" rel=\"stylesheet\">\n<style type=\"text\/css\">.product-img { position: absolute; bottom: 20px; right: 30px; width: 250px; }\n\n        .pre-heading h1, \n        .pre-heading h3,\n        .pre-heading h4 { font-family: 'EB Garamond', serif; }\n\n        .pre-heading h1 { color: #706d6b; font-size: 46px; margin-bottom: 0; font-weight: 400; }\n        .pre-heading h3 { font-weight: 500; font-size: 27px; margin-top: 10px; line-height: 1.2em; }\n\n        .pre-heading { margin-bottom: 30px; }\n        .pre-heading .vert-divider { margin: 0px auto; width: 2px; height: 30px; background: #0695B8; }\n\n        .first-letter { font-size: 4.5em; float: left; margin-top: .15em; font-family: 'EB Garamond', serif; padding: 0 5px 5px 0;}\n\n\n\n        .mx-auto { margin: 0px auto; float: none; }\n\n        @media (max-width: 576px) { .product-img { width: 90px; } }\n        @media (max-width: 768px) { }\n        @media (max-width: 992px) { }\n        @media (max-width: 1200px) { }\n\n\n    <\/style> ",
+  "JavascriptList": " ",
+  "": null
+}

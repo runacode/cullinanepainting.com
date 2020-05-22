@@ -1,0 +1,1 @@
+{"SiteTextLogo":"Clark Stevens 2","ContactEmail":"info@<?php echo $_SERVER['HTTP_HOST']; ?>","pixel_id":"1213","CurrencySymbol":"$","FacebookCurrency":"USD"}

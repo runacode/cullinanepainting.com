@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0a86895e-3e29-465c-9f25-b48854036bb2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YGXqVQs06mMeTsXc9HRPRUSkCA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/config/Editor" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gamin\Documents\GitHub\CleanAd\config\Editor" />
+      <recent name="C:\Users\gamin\Documents\GitHub\CleanAd\config\Pages" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0a86895e-3e29-465c-9f25-b48854036bb2" name="Default Changelist" comment="" />
+      <created>1582570095762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582570095762</updated>
+      <workItem from="1582570097567" duration="12149000" />
+      <workItem from="1582642695128" duration="5823000" />
+      <workItem from="1582683916914" duration="4580000" />
+      <workItem from="1582742440860" duration="2129000" />
+      <workItem from="1582748646798" duration="432000" />
+      <workItem from="1582762966364" duration="15267000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Notifications" timestamp="1582595372705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Notifications/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582595372705" />
+    <state x="701" y="132" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function0" timestamp="1582686473965">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="132" key="#com.jetbrains.php.refactoring.extractMethod.PhpExtractMethodDialog#function0/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582686473965" />
+    <state x="835" y="315" key="FileChooserDialogImpl" timestamp="1582678076287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="835" y="315" key="FileChooserDialogImpl/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582678076287" />
+    <state x="783" y="457" key="ReplaceDuplicatesPrompt" timestamp="1582686478203">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="783" y="457" key="ReplaceDuplicatesPrompt/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582686478203" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1582596717191">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582596717191" />
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1582837242766">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582837242766" />
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1582570098705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582570098705" />
+    <state x="667" y="154" width="586" height="732" key="find.popup" timestamp="1582834155264">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="154" width="586" height="732" key="find.popup/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582834155264" />
+    <state x="845" y="256" key="ftp.server.browser" timestamp="1582570225942">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="256" key="ftp.server.browser/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582570225942" />
+    <state x="830" y="425" key="publish.login" timestamp="1582651801758">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="830" y="425" key="publish.login/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582651801758" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1582836527863">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582836527863" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1582837977255">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.-87.1280.680@0.0.1920.1040" timestamp="1582837977255" />
+  </component>
+</project>
